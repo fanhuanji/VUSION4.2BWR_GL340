@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "beforeBuildTasks": [],
+    "afterBuildTasks": [
+        {
+            "name": "new postbuild task",
+            "disable": false,
+            "abortAfterFailed": true,
+            "command": "makebin.exe -p -s 32768 \"${OutDir}/${ProjectName}.ihx\" \"${OutDir}/cc.bin\"\necho \"${OutDir}/${ProjectName}.hex ->${OutDir}/cc.bin\""
+        }
+    ],
+    "global": {
+        "device": "mcs51",
+        "optimize-type": "speed",
+        "misc-controls": "-pcc2510fx --iram-size 256 --xram-loc 0xF000 --xram-size 0xF00 --code-size 32768 --model-small"
+    },
+    "c/cpp-compiler": {
+        "language-c": "c11"
+    },
+    "asm-compiler": {},
+    "linker": {
+        "$mainFileName": "main",
+        "output-format": "hex"
+    }
+}

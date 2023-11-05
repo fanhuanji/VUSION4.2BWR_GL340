@@ -1,0 +1,44 @@
+{
+  "name": "VUSION_42_BWR_340",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [
+    "src",
+    "inc"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "5b43a45b37334fd04652e2aa887d9e59"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "SDCC",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "build\\Debug\\cc.bin",
+        "commandLine": "python \"D:\\esp\\proj\\serial_cc_debugger\\ctrl.py\" flash COM3 \"${hexFile}\"",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
