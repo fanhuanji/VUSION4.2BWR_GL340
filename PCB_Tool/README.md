@@ -21,3 +21,6 @@
 2. shift+鼠标滚轴左右滚动
 3. 显示PCB图片及走线
 4. 当前不支持缩放！
+
+### 烧录接线
+![image](https://github.com/fanhuanji/VUSION4.2BWR_GL340/assets/20816057/dfd408d5-3a58-4237-83d5-fc56ceb26ae7)
