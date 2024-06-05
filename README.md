@@ -3,6 +3,9 @@ A working NFC demo for EPD VUSION4.2BWR_GL340
 
 ## 大图警告
 
+## 新增PCB分析及烧录接线图
+见PCB_Tool文件夹
+
 ## 效果图
 
 ### 手机界面
