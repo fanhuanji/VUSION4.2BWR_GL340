@@ -1,5 +1,7 @@
 ## 东西比较老了，很久没有动过该程序了，程序还是debug build，简单一说
 
+![image](https://github.com/fanhuanji/VUSION4.2BWR_GL340/assets/20816057/1b6abd16-de28-4a8c-b5d5-4f5bc2360965)
+
 ### 上侧窗口
 1. Load按钮载入走线数据
 2. Top/Bottom单选框为切换正反面显示（空格键快捷键）
